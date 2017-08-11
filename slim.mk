@@ -9,9 +9,6 @@ PRODUCT_RELEASE_NAME := flo
 # Inherit some common stuff.
 $(call inherit-product, vendor/slim/config/common.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/asus/flo/full_flo.mk)
 
@@ -27,5 +24,5 @@ PRODUCT_MANUFACTURER := Asus
 #Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=razor \
-    BUILD_FINGERPRINT=google/razor/flo:6.0.1/MOB30P/2960889:user/release-keys \
-    PRIVATE_BUILD_DESC="razor-user 6.0.1 MOB30P 2960889 release-keys"
+    BUILD_FINGERPRINT=google/razor/flo:6.0.1/MOB30X/3036618:user/release-keys \
+    PRIVATE_BUILD_DESC="razor-user 6.0.1 MOB30X 3036618 release-keys"
